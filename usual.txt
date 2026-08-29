@@ -1,0 +1,19 @@
+1. Create local project
+        ↓
+2. Create virtual environment
+        ↓
+3. Install requests
+        ↓
+4. Learn Git basics
+        ↓
+5. Create GitHub repository
+        ↓
+6. Push your project to GitHub
+        ↓
+7. Learn HTTP + Python requests
+        ↓
+8. Learn GitHub REST API
+        ↓
+9. Learn authentication + tokens
+        ↓
+10. Build a real GitHub API project
