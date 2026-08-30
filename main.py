@@ -1,12 +1,23 @@
-'''git hub learning + python tutorials'''
+'''git hub learning + request module'''
 
-print('git + git hub learning')
+import os
+import requests
+from dotenv import load_dotenv
 
-print()
+load_dotenv()
 
-number = input('Enter number: ')
+token = os.getenv("GITHUB_TOKEN")
 
-if number == '0':
-    print('basics to advanced...')
-else:
-    print('invalid right now...')
+headers = {
+    "Authorization": f"Bearer {token}",
+    "Accept": "application/vnd.github+json"
+}
+
+response = requests.get(
+    "https://api.github.com/user",
+    headers=headers
+)
+
+print(response.status_code)
+print(response.json())
+
