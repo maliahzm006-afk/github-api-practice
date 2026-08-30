@@ -17,3 +17,13 @@
 9. Learn authentication + tokens
         ↓
 10. Build a real GitHub API project
+
+While Using requests module !!!
+
+Checking status-code
+
+200 → Success
+404 → Not Found
+401 → Unauthorized
+403 → Forbidden
+500 → Server Error
