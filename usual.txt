@@ -27,3 +27,55 @@ Checking status-code
 401 → Unauthorized
 403 → Forbidden
 500 → Server Error
+
+
+After learning request module next steps that 
+you should take over.
+
+GET     → retrieve data
+POST    → send/create data
+PUT     → replace/update data
+PATCH   → partially update data
+DELETE  → delete data
+
+Query parameters are extremely common in APIs
+
+pagination
+search
+filtering
+sorting
+date ranges
+limits
+fields
+language
+status
+
+
+After learning AI API >>>
+
+                    YOU ARE HERE
+                         ↓
+             REST API + AI API
+                         ↓
+              ┌──────────────────┐
+              │  1. AI + Python  │  ← NEXT
+              │  Logic & Control │
+              └────────┬─────────┘
+                       ↓
+              2. Structured Output
+                       ↓
+              3. Error Handling
+                       ↓
+              4. AI + Files
+                       ↓
+              5. AI + APIs
+                       ↓
+              6. Multi-step Automation
+                       ↓
+              7. Webhooks
+                       ↓
+              8. Scheduled Automation
+                       ↓
+              9. Real-world Projects
+                       ↓
+                 💰 Freelancing
